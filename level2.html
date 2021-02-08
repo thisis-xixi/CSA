@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>百科</title>
+    <style>
+        .gray {
+            color: rgb(109, 109, 114);
+        }
+
+        .bgcg {
+            background-color: rgb(109, 109, 114);
+        }
+
+        p {
+            text-indent: 2em;
+            font-weight: 700;
+            line-height: 25px;
+            font-size: 20px;
+        }
+
+        div>a {
+            float: right;
+            display: inline-block;
+            padding: 9px;
+            color: aliceblue;
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .tu {
+            height: 20px;
+            margin-left: 30px;
+            padding-top: 10px;
+        }
+
+        .big {
+            width: 750px;
+            border: 1px solid black;
+            margin-top: 20px;
+            margin-left: 20px;
+            padding: 20px;
+        }
+
+        .border {
+            border: 1px solid black;
+            width: 100px;
+            padding: 10px;
+            margin-left: 10px;
+            margin-top: 10px;
+            float: left;
+        }
+
+        #bgb {
+            background-color: rgb(51, 85, 209);
+            width: 300px;
+            height: 30px;
+            color: aliceblue;
+            font-weight: 700;
+        }
+
+        #small {
+            width: 370px;
+            border: 1px solid black;
+            margin-top: 20px;
+            padding: 15px;
+        }
+
+        .left {
+            float: left;
+        }
+
+        .table {
+            width: 600px;
+        }
+
+        .tbody {
+            font-weight: 700;
+        }
+
+        .thead {
+            background-color: rgb(43, 39, 39);
+            color: white;
+            font-weight: 700;
+        }
+
+        .right {
+            float: right;
+        }
+
+        .nav {
+            background-color: rgb(39, 33, 33);
+            height: 40px;
+        }
+
+        .weight {
+            font-weight: 700;
+        }
+
+        .bottom {
+            width: 1300px;
+            height: 50px;
+            background-color: rgb(39, 33, 33);
+            font-size: 12px;
+            color: honeydew;
+            font-weight: 700;
+            padding: 10px 600px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <span><img src="../图片/2019-07-18 100423.jpg" class="tu"></span>
+        <a href="#">导航链接四</a>
+        <a href="#">导航链接三</a>
+        <a href="#">导航链接二</a>
+        <a href="#">导航链接一</a>
+    </div>
+    <div class="big left">
+        <h1>文章一级标题</h1>
+        <h2 class="gray">文章二级标题</h2>
+        <h3 class="gray"><span>文章作者</span> <span>文章发表时间</span></h3>
+
+
+        <p>这是一个很长很长的段落,这是一个很踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩从踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩从踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩踩从的段落</p>
+        <p>这是二个很长的段落，啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦
+        </p>
+        <p>这是三个很长很长的段落，3333333333333333333<a href="http://ife.baidu.com"
+                target="_blank">这里有一个链接</a>，这是三个很长很长的段落,噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢哦哦哦噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢哦哦哦噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢哦哦哦噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢哦哦哦噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢哦哦哦噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢哦哦哦噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢哦哦哦噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢噢哦哦哦
+        </p>
+
+
+        <img src="../图片/2019-07-17 154438.jpg" width="500">
+    </div>
+
+
+    <div class="right" id="small">
+
+        <table class="weight">
+            <thead>
+                <tr>
+                    <h2>侧栏的标题</h2>
+                </tr>
+            </thead>
+
+
+            <tbody>
+                <tr>
+                    <td>请输入邮箱地址</td>
+                    <td><input type="text" name="address" value="这是一个文本输入框"></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>邮箱地址请按要求格式输入</td>
+                </tr>
+
+                <tr>
+                    <td>请输入密码</td>
+                    <td><input type="password" name="密码" value="密码"></td>
+                </tr>
+
+                <tr>
+                    <td>请重复输入密码</td>
+                    <td>
+                        <input type="password" name="密码" value="密码">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>密码请为6-16位英文数字</td>
+                </tr>
+
+                <tr>
+                    <td>性别</td>
+                    <td><input type="radio" name="sex" checked="checked">男
+                        <input type="radio" name="sex">女
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>城市</td>
+                    <td>
+                        <select>
+                            <option>北京</option>
+                            <option>重庆</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>爱好</td>
+                    <td>
+                        <input type="checkbox" name="execise" value="运动">运动
+                        <input type="checkbox" name="艺术" value="艺术">艺术
+                        <input type="checkbox" name="科学" value="科学">科学
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>个人描述</td>
+                    <td>
+                        <textarea name="个人描述" cols="30" rows="5"></textarea>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div><input type="button" name="submit" value="确认提交" id="bgb"></div>
+    </div>
+
+
+
+    <div class="big left">
+        <h1>另一篇文章一级标题</h1>
+
+        <h2 class="gray">文章二级标题</h2>
+
+        <h3 class="gray">
+            <span>文章作者</span>
+            <span>文章发表时间</span>
+        </h3>
+
+        <p>作者吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱吱</p>
+
+        <p>上次你说地产公司v噶v擦合成啦v不符合胡你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你你</p>
+
+        <p>靠靠靠靠靠靠靠靠靠靠靠靠靠靠靠靠靠靠靠你你你你你你你你你你你你你你你你你你你不啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵啵宝宝</p>
+
+        <img src="../图片/2019-07-17 154438.jpg" width=500>
+
+        <ul>
+            <li>列表项目一</li>
+            <li>列表项目二</li>
+            <li>列表项目三</li>
+        </ul>
+    </div>
+
+    <div class="big left">
+        <h1>图片</h1>
+
+        <div class="border">
+            <h4>好看的图片</h4>
+            <img src="../图片/2019-07-10 133817.jpg" width=100>
+        </div>
+        <div class="border">
+            <h4>好看的图片</h4>
+            <img src="../图片/2019-07-10 133817.jpg" width=100>
+        </div>
+        <div class="border">
+            <h4>好看的图片</h4>
+            <img src="../图片/2019-07-10 133817.jpg" width=100>
+        </div>
+        <div class="border">
+            <h4>好看的图片</h4>
+            <img src="../图片/2019-07-10 133817.jpg" width=100>
+        </div>
+        <div class="border">
+            <h4>好看的图片</h4>
+            <img src="../图片/2019-07-10 133817.jpg" width=100>
+        </div>
+        <div class="border">
+            <h4>好看的图片</h4>
+            <img src="../图片/2019-07-10 133817.jpg" width=100>
+        </div>
+        <div class="border">
+            <h4>好看的图片</h4>
+            <img src="../图片/2019-07-10 133817.jpg" width=100>
+        </div>
+        <div class="border">
+            <h4>好看的图片</h4>
+            <img src="../图片/2019-07-10 133817.jpg" width=100>
+        </div>
+        <div class="border">
+            <h4>好看的图片</h4>
+            <img src="../图片/2019-07-10 133817.jpg" width=100>
+        </div>
+        <div class="border">
+            <h4>好看的图片</h4>
+            <img src="../图片/2019-07-10 133817.jpg" width=100>
+        </div>
+    </div>
+
+    <div class="big left">
+        <h1>最后一篇文章一级标题</h1>
+
+        <h2 class="gray">文章二级标题</h2>
+
+        <h3 class="gray">
+            <span>文章作者</span>
+            <span>文章发表时间</span>
+        </h3>
+
+        <ol>
+            <li>排名1</li>
+            <li>排名2</li>
+            <li>排名3</li>
+        </ol>
+
+        <table class="table">
+            <thead class="thead">
+                <tr>
+                    <td>表头</td>
+                    <td>表头</td>
+                    <td>表头</td>
+                </tr>
+            </thead>
+
+            <tbody class="tbody">
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="#">操作</a></td>
+                </tr>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="#">操作</a></td>
+                </tr>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="#">操作</a></td>
+                </tr>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="#">操作</a></td>
+                </tr>
+                <tr class="bgcg">
+                    <td>总计</td>
+                    <td>1000</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="bottom left">版权所有</div>
+</body>
+
+</html>
