@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>h2.level2.1</title>
+    <script>
+        var arr = [12,35,17,29,89,67,36,9,43,56];
+        function vote() {
+            var i,j;
+            for(i=0;i<arr.length;i++){
+                var t=arr[i],n;
+                for(j=i;j<arr.length;j++){
+                    if(t>=arr[j]){
+                        t=arr[j];
+                        arr[j]=arr[i];
+                        arr[i]=t;
+                    }
+                }
+            }
+        }
+        vote(arr);
+        console.log(arr.join(","));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
