@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>h3.level3.2</title>
+    <script>
+        function Animal() { }
+        function Cat(name,color){
+　　　　this.name = name;
+　　　　this.color = color;
+　　}
+        Animal.prototype.species = "动物";
+        function extend2(Child, Parent) {
+            var p = Parent.prototype;
+            var c = Child.prototype;
+            for (var i in p) {
+                c[i] = p[i];
+            }
+            c.uber = p;
+        }
+        extend2(Cat, Animal);
+        var cat1 = new Cat("大毛", "黄色");
+        console.log(cat1.species); // 动物
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
